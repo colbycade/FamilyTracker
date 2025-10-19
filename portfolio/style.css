@@ -7,7 +7,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background: linear-gradient(135deg, #002e5d 0%, #0057bb 100%);
+  background: linear-gradient(0deg, #002e5d 0%, #0057bb 100%);
 }
 main {
   display: flex;
@@ -21,15 +21,19 @@ footer {
   text-align: center;
   padding: 1.5em;
   font-size: 0.9em;
-  color: #666;
-  border-top: 1px solid #eee;
+  color: #ffffff;
+  background-color: #002e5d;
+  border-top: 1px solid #557aa0;
 }
+
 footer a {
-  color: #557aa0;
+  color: #d8b600;
   text-decoration: none;
+  font-weight: bold;
 }
+
 footer a:hover {
-  color: #da9512;
+  text-decoration: underline;
 }
 .large {
   display: block;
@@ -86,7 +90,7 @@ footer a:hover {
 }
 .project-description {
   font-size: 1em;
-  color: #666;
+  color: #4a4a4a;
   margin-bottom: 1em;
   line-height: 1.5;
 }

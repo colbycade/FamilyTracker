@@ -1,3 +1,7 @@
+#!/bin/bash
+
+# Script to deploy a React front end and Node.js back end service to a remote server.
+# To deploy family-tasks: ./deployService.sh -k <path_to_pem> -h family-tasks.app -s family
 while getopts k:h:s: flag
 do
     case "${flag}" in

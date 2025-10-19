@@ -48,7 +48,11 @@ export default function App() {
                     <hr />
                     <span> Made by Colby Wright</span>
                     <br />
-                    <a href="https://github.com/colbycade/startup">GitHub</a>
+                    <div>
+                        <a href="https://github.com/colbycade/family-task-manager" target="_blank">GitHub</a>
+                        <span> | </span>
+                        <a href="https://portfolio.family-tasks.app" target="_blank">Portfolio</a>
+                    </div>
                 </footer>
             </div>
         </BrowserRouter >
